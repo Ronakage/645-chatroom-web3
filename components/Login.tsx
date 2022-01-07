@@ -3,7 +3,7 @@ import { useMoralis } from "react-moralis";
 
 function Login() {
     const { authenticate } = useMoralis();
-    
+
     return (
         <div className="bg-gradient-to-b from-white to-orange-100 overflow-hidden relatve ">
 
