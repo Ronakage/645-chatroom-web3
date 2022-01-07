@@ -6,7 +6,7 @@ function Header() {
     const { user } = useMoralis();
 
     return (
-        <div className="sticky top-0 p-5 z-50 text-orange-500 ">
+        <div className="top-0 p-5 z-50 bg-opacity-5 text-orange-500">
 
             <div className="text-left lg:text-center"> 
 
