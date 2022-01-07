@@ -23,7 +23,7 @@ function Login() {
                 <br />
 
                 {/* Login button */}
-                <button onClick={authenticate} 
+                <button onClick= {() => authenticate()}
                 className="bg-orange-400 rounded-lg p-5 font-bold">
                 Login with MetaMask 🦊</button>
 
