@@ -16,7 +16,7 @@ function Header() {
                         <Avatar logoutOnPress/>
                     </div>
 
-                    <h1 className="text-3xl ">Blockchained Chat Lobby 📳 </h1>
+                    <h1 className="text-3xl ">Emulated Blockchained Chat Lobby 📳 </h1>
 
                     <h2 className="text-5xl font-bold">{user.getUsername()}</h2>
 

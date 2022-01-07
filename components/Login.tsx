@@ -3,8 +3,10 @@ import { useMoralis } from "react-moralis";
 
 function Login() {
     const { authenticate } = useMoralis();
+    
     return (
         <div className="bg-gradient-to-b from-white to-orange-100 overflow-hidden relatve ">
+
             <div className="flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4">
 
                 {/*  Logo */}
@@ -27,8 +29,9 @@ function Login() {
 
                 <br /><br />
                 <div className="text-sm tracking-wide font-light">Made by Rony Mawad 💻 </div>
-                
+
             </div>
+
             {/* Background */}
             <div className="w-full h-screen">
                 {/* <Image src="/background.jpg" layout="fill" objectFit="cover"></Image> */}
