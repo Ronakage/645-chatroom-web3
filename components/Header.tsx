@@ -13,7 +13,7 @@ function Header() {
                 <div>
 
                     <div className="relative h-48 w-48 lg:mx-auto "> 
-                        <Avatar logoutOnPress/>
+                        <Avatar username={undefined}/>
                     </div>
 
                     <h1 className="text-3xl ">Emulated Blockchained Chat Lobby 📳 </h1>
