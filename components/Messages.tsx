@@ -33,7 +33,7 @@ function Messages() {
                     <SendMessage endOfMessagesRef={endOfMessagesRef}/>
                 </div>
 
-                <div ref={endOfMessagesRef} className="text-center text-orange-100 mt-5">
+                <div ref={endOfMessagesRef} className="text-center text-gray-600 mt-5">
                     <p>You're up-to-date {user.getUsername()}! 🎉</p>
                 </div>
 

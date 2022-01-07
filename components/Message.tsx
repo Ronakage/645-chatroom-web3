@@ -18,7 +18,7 @@ function Message({message}) {
             {/* Time stamp */}
             <TimeAgo className={`text-[10px] italic text-gray-600 ${isUserMessage && "order-first p-1"}`} datetime={message.createdAt}/>
             {/* Name under chat */}
-            <p className={`absolute -bottom-5 text-xs ${isUserMessage ? 'text-orange-100 font-bold shadow-xl' : 'text-black font-bold shadow-xl'}`}> 
+            <p className={`absolute -bottom-5 text-xs rounded-full p-1 ${isUserMessage ? 'text-gray-600 font-bold shadow-xl' : 'text-gray-600 font-bold shadow-xl'}`}> 
                 {message.get("username")}
             </p>
         </div>
