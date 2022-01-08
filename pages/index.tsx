@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div className="h-screen overflow-y-scroll bg-gradient-to-b from-white to-orange-400 overflow-hidden">
       <Head>
-        <title>645 Chatroom - Web 3.0</title>
+        <title>Blockchain Chatroom - Web 3.0</title>
         <link rel="icon" href="/favicon.ico"/>
       </Head>
 
