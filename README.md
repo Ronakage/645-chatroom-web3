@@ -2,7 +2,7 @@
 
 A secure, real-time chat application made with decentralized protocols to emulate web 3.0 technologies. (Blockchain-like end-to-end encryption)
 
-Made using NextJS, TailwindCSS, Moralis.IO and DiceBear Avatars' API
+Made using NextJS, TailwindCSS, Moralis.IO, DiceBear Avatars' API and Vercel
 
 
 ## To try it out :
